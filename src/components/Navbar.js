@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -12,7 +12,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-name">
                         Gautham Saravanan
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -22,28 +22,46 @@ function Navbar() {
                         <li className="nav-item">
                             <Link
                                 to="/"
-                                className="nav-links"
+                                className="nav-link"
                                 onClick={closeMobileMenu}
                             >
-                                Home
+                                &nbsp;HOME&nbsp;
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link
                                 to="/experiences"
-                                className="nav-links"
+                                className="nav-link"
                                 onClick={closeMobileMenu}
                             >
-                                Experiences
+                                &nbsp;EXPERIENCES&nbsp;
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/accomplishments"
+                                className="nav-link"
+                                onClick={closeMobileMenu}
+                            >
+                                &nbsp;ACCOMPLISHMENTS&nbsp;
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link
                                 to="/projects"
-                                className="nav-links"
+                                className="nav-link"
                                 onClick={closeMobileMenu}
                             >
-                                Projects
+                                &nbsp;PROJECTS&nbsp;
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/about-me"
+                                className="nav-link"
+                                onClick={closeMobileMenu}
+                            >
+                                &nbsp;ABOUT ME&nbsp;
                             </Link>
                         </li>
                     </ul>

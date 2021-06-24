@@ -7,28 +7,39 @@
 
 .home,
 .experiences,
-.projects {
+.projects,
+.accomplishments,
+.aboutMe {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    height: calc(100vh - 80px);
+    transition: 0.3s;
+}
+
+.home {
+    background-image: linear-gradient(45deg, #FF9C4E 0%, #F9F871 30%, #99FF99 66%, #5cdcf6 100%);
+    font-size: 100px;
 }
 
 .experiences {
-    background-image: url('images/gs_logo1.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
+    background-color: #FF9C4E;
+    font-size: 100px;
+}
+
+.accomplishments {
+    background-color: #F9F871;
     font-size: 100px;
 }
 
 .projects {
-    background-image: url('images/gs_logo2.png');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
+    background-color: #99FF99;
+    font-size: 100px;
+}
+
+.aboutMe {
+    background-color: #5cdcf6;
     font-size: 100px;
 }
