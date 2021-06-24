@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import "./Theme.css";
 import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
+import Home from './components/pages/Home/Home';
 import Projects from './components/pages/Projects';
 import Experiences from './components/pages/Experiences';
 import Accomplishments from './components/pages/Accomplishments';

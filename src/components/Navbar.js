@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo1 from "../images/gs_logo1-80x80.png";
 import "./Navbar.css";
 
 function Navbar() {
@@ -13,7 +14,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-name">
-                        Gautham Saravanan
+                        <img src={Logo1} alt="logo"/>Gautham Saravanan
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -23,6 +24,7 @@ function Navbar() {
                             <Link
                                 to="/"
                                 className="nav-link"
+                                id="home"
                                 onClick={closeMobileMenu}
                             >
                                 &nbsp;HOME&nbsp;
@@ -32,6 +34,7 @@ function Navbar() {
                             <Link
                                 to="/experiences"
                                 className="nav-link"
+                                id="experiences"
                                 onClick={closeMobileMenu}
                             >
                                 &nbsp;EXPERIENCES&nbsp;
@@ -41,6 +44,7 @@ function Navbar() {
                             <Link
                                 to="/accomplishments"
                                 className="nav-link"
+                                id="accomplishments"
                                 onClick={closeMobileMenu}
                             >
                                 &nbsp;ACCOMPLISHMENTS&nbsp;
@@ -50,6 +54,7 @@ function Navbar() {
                             <Link
                                 to="/projects"
                                 className="nav-link"
+                                id="projects"
                                 onClick={closeMobileMenu}
                             >
                                 &nbsp;PROJECTS&nbsp;
@@ -59,6 +64,7 @@ function Navbar() {
                             <Link
                                 to="/about-me"
                                 className="nav-link"
+                                id="aboutMe"
                                 onClick={closeMobileMenu}
                             >
                                 &nbsp;ABOUT ME&nbsp;
