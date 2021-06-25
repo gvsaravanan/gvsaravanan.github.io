@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import "./Theme.css";
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home/Home';
-import Projects from './components/pages/Projects';
-import Experiences from './components/pages/Experiences';
-import Accomplishments from './components/pages/Accomplishments';
-import AboutMe from './components/pages/AboutMe';
+import Projects from './components/pages/Projects/Projects';
+import Experiences from './components/pages/Experiences/Experiences';
+import Accomplishments from './components/pages/Accomplishments/Accomplishments';
+import AboutMe from './components/pages/AboutMe/AboutMe';
 
 function App() {
   return (

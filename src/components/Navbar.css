@@ -100,7 +100,7 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: white;
 }
 
 .nav-links-mobile {
@@ -138,17 +138,28 @@
         overflow: hidden;
     }
 
-    .nav-links {
+    .nav-link {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
     }
 
-    .nav-links:hover {
-        background-color: #fff;
-        color: #242424;
+    .nav-link:hover {
+        background-color: white;
         border-radius: 0;
+    }
+
+    #home:hover,     
+    #experiences:hover, 
+    #accomplishments:hover, 
+    #projects:hover, 
+    #aboutMe:hover {
+        color: black;
+    }
+
+    .nav-link::after {
+        background: none;
     }
 
     .menu-icon {

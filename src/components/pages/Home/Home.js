@@ -1,20 +1,18 @@
 import React from "react";
-import "../../.././App.css";
 import style from "./Home.module.css";
 
 export default function Home() {
     return (
         <>
-            <h1 className={style["home"]}>
-                {" "}
-                HOME
+            <div className={style["home"]}>
+                <h1>HOME</h1>
                 <div className={style["btn-group"]}>
-                    <button>Click here!</button>
-                    <button>Click here!</button>
-                    <button>Click here!</button>
-                    <button>Click here!</button>
+                    <button>Look at my experiences!</button>
+                    <button>Check out my accomplishments!</button>
+                    <button>View my projects!</button>
+                    <button>Learn more about me!</button>
                 </div>
-            </h1>
+            </div>
         </>
     );
 }

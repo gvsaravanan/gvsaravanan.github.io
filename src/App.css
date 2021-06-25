@@ -5,35 +5,18 @@
     font-family: "Barlow", sans-serif;
 }
 
-.experiences,
-.projects,
-.accomplishments,
-.aboutMe {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    height: calc(100vh - 80px);
-    transition: 0.3s;
+#root {
+    overflow-x: hidden;
 }
 
-.experiences {
-    background-color: #FF9C4E;
-    font-size: 100px;
+::-webkit-scrollbar {
+    width: 20px;
+    
 }
 
-.accomplishments {
-    background-color: #F9F871;
-    font-size: 100px;
-}
-
-.projects {
-    background-color: #99FF99;
-    font-size: 100px;
-}
-
-.aboutMe {
-    background-color: #5cdcf6;
-    font-size: 100px;
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background-clip: content-box;
 }

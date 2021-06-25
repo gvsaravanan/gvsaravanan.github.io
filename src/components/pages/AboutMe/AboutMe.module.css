@@ -1,0 +1,12 @@
+.aboutMe {
+    background-color: var(--blue);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    padding: 4rem;
+    font-size: 3rem;
+    text-align: center;
+}

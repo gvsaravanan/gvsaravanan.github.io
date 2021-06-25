@@ -1,30 +1,32 @@
 .home {
     background: linear-gradient(45deg, var(--orange) 0%, var(--yellow) 30%, var(--green) 66%, var(--blue) 100%);
     display: flex;
-    height: 90vh;
     align-items: center;
     justify-content: center;
-    font-size: 6rem;
-    height: calc(100vh - 80px);
+    height: 91.5vh;
     transition: 0.5s;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 .btn-group {
-    padding: 50px;
     transition: 0.5s;
 }
 
 .btn-group button {
     background-color: white;
     border: 4px solid black;
-    border-radius: 24px;
+    border-radius: 5rem;
     color: black;
     padding: 10px 24px;
     cursor: pointer;
     display: block;
     transition: 0.3s;
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .btn-group button:hover {

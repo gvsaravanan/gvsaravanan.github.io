@@ -14,7 +14,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-name">
-                        <img src={Logo1} alt="logo"/>Gautham Saravanan
+                        <img src={Logo1} alt="logo" style={{marginRight: "5px"}}/>Gautham Saravanan
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />

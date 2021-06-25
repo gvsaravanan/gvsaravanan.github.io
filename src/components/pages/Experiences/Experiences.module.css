@@ -1,0 +1,11 @@
+.experiences {
+    background-color: var(--orange);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    padding: 4rem;
+    font-size: 3rem;
+}

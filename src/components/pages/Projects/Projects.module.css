@@ -1,0 +1,12 @@
+.projects {
+    background-color: var(--green);
+    height: 100vh;
+    transition: 0.3s;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    padding: 4rem;
+    font-size: 3rem;
+}

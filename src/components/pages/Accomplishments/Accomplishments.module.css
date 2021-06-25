@@ -1,0 +1,11 @@
+.accomplishments {
+    background-color: var(--yellow);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    padding: 4rem;
+    font-size: 3rem;
+}
