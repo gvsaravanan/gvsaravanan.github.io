@@ -21,8 +21,18 @@
 }
 
 .navbar-name {
-    color: #fff;
+    color: white;
     justify-self: start;
+    margin-left: 20px;
+    cursor: default;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.name {
+    color: white;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
@@ -30,12 +40,10 @@
     display: flex;
     align-items: center;
     transition: 0.3s;
-    flex: 1;
 }
 
-.navbar-name:hover {
+.name:hover {
     transform: scale(1.1);
-    transform-origin: center center;
 }
 
 .fa-typo3 {
@@ -70,20 +78,16 @@
     color: rgb(209, 209, 209);
 }
 
-#experiences:hover {
-    color: #ff9c4e;
-}
-
-#accomplishments:hover {
-    color: #f9f871;
+#experience:hover {
+    color: var(--yellow);
 }
 
 #projects:hover {
-    color: #99ff99;
+    color: var(--green);
 }
 
 #aboutMe:hover {
-    color: #5cdcf6;
+    color: var(--blue);
 }
 
 .nav-link::after {
@@ -121,7 +125,7 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 90vh;
+        height: calc(100vh - 80px);
         position: absolute;
         top: 80px;
         left: -100%;
@@ -134,7 +138,7 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 5;
         overflow: hidden;
     }
 
@@ -151,8 +155,7 @@
     }
 
     #home:hover,     
-    #experiences:hover, 
-    #accomplishments:hover, 
+    #experience:hover, 
     #projects:hover, 
     #aboutMe:hover {
         color: black;
@@ -177,6 +180,10 @@
         font-size: 2rem;
     }
 
+    .navbar-link {
+        margin-top: -10px;
+    }
+
     .nav-links-mobile {
         display: block;
         text-align: center;
@@ -190,9 +197,10 @@
         padding: 14px 20px;
         border: 1px solid #fff;
         transition: all 0.3s ease-out;
+        margin-top: -100px;
     }
 
-    .nav-links-mobile:hover {
+    .nav-links-mobile:hover .nav-links-mobile:active {
         background: #fff;
         color: #242424;
         transition: 250ms;

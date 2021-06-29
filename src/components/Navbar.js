@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo1 from "../images/gs_logo1-80x80.png";
+import Logo1 from "../images/gs_logo1_transparent-60x60.png";
 import "./Navbar.css";
 
 function Navbar() {
@@ -14,13 +14,20 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-name">
-                        <img src={Logo1} alt="logo" style={{marginRight: "5px"}}/>Gautham Saravanan
+                        <p className="name">
+                            <img
+                                src={Logo1}
+                                alt="logo"
+                                style={{ marginRight: "10px" }}
+                            />
+                            Gautham Saravanan
+                        </p>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <li className="nav-item">
+                        <li className="nav-item  navbar-link">
                             <Link
                                 to="/"
                                 className="nav-link"
@@ -30,27 +37,17 @@ function Navbar() {
                                 &nbsp;HOME&nbsp;
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item  navbar-link">
                             <Link
-                                to="/experiences"
+                                to="/experience"
                                 className="nav-link"
-                                id="experiences"
+                                id="experience"
                                 onClick={closeMobileMenu}
                             >
-                                &nbsp;EXPERIENCES&nbsp;
+                                &nbsp;EXPERIENCE&nbsp;
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/accomplishments"
-                                className="nav-link"
-                                id="accomplishments"
-                                onClick={closeMobileMenu}
-                            >
-                                &nbsp;ACCOMPLISHMENTS&nbsp;
-                            </Link>
-                        </li>
-                        <li className="nav-item">
+                        <li className="nav-item  navbar-link">
                             <Link
                                 to="/projects"
                                 className="nav-link"
@@ -60,7 +57,7 @@ function Navbar() {
                                 &nbsp;PROJECTS&nbsp;
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item  navbar-link">
                             <Link
                                 to="/about-me"
                                 className="nav-link"
