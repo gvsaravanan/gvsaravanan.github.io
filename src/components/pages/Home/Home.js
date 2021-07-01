@@ -52,23 +52,27 @@ export default function Home() {
                     <button>
                         <Link
                             to="/experience"
-                            style={{textDecoration: "none", color: "black"}}
+                            style={{ textDecoration: "none", color: "black" }}
                         >
                             Check out my experience!
                         </Link>
                     </button>
-                    <button><Link
+                    <button>
+                        <Link
                             to="/projects"
-                            style={{textDecoration: "none", color: "black"}}
+                            style={{ textDecoration: "none", color: "black" }}
                         >
                             View my projects!
-                        </Link></button>
-                    <button><Link
+                        </Link>
+                    </button>
+                    <button>
+                        <Link
                             to="/about-me"
-                            style={{textDecoration: "none", color: "black"}}
+                            style={{ textDecoration: "none", color: "black" }}
                         >
                             Learn more about me!
-                        </Link></button>
+                        </Link>
+                    </button>
                 </div>
             </div>
         </>

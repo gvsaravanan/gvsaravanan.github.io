@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Experience.module.css";
 
-export default function Experience() {
+export default function Experience() { 
     return (
         <>
             <div className={style["experience"]}>

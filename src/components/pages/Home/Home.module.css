@@ -100,10 +100,6 @@
     margin-bottom: 20px;
 }
 
-.btn-group button:last-child {
-    margin-bottom: 0;
-}
-
 .btn-group button:hover {
     background-color: lightgray;
 }
