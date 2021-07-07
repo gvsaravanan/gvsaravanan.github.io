@@ -17,7 +17,7 @@ export default function Home() {
                         <p className={style["info"]}>
                             I'm a Junior at Cedar Park High School and I'm a
                             motivated computer science student interested in
-                            computer science, finance, business, and technology!
+                            programming, finance, business, and technology!
                         </p>
                     </span>
                     <a className={style["email"]} href="mailto:name@email.com">
