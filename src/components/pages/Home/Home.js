@@ -28,6 +28,7 @@ export default function Home() {
                             className={style["social-icon"]}
                             href="https://www.linkedin.com/in/gautham-saravanan/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -35,6 +36,7 @@ export default function Home() {
                             className={style["social-icon"]}
                             href="https://github.com/gvsaravanan"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <i class="fab fa-github"></i>
                         </a>
@@ -42,6 +44,7 @@ export default function Home() {
                             className={style["social-icon"]}
                             href="https://instagram.com/gautham.saravanan/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <i class="fab fa-instagram"></i>
                         </a>
