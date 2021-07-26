@@ -19,6 +19,7 @@ export default function Home() {
                             motivated computer science student interested in
                             programming, finance, business, and technology!
                         </p>
+                        
                     </span>
                     <a className={style["email"]} href="mailto:name@email.com">
                         gautham.v.saravanan@gmail.com

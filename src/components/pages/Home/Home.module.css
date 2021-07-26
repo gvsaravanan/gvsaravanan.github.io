@@ -1,6 +1,6 @@
 .home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../../../images/background4.gif) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../../images/background2.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,11 +34,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .info {
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 900;
     width: 400px;
     flex: 1;
     line-height: 1.3;
