@@ -13,16 +13,20 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-name">
+                    <div className="navbar-name">
                         <p className="name">
                             <img
                                 src={Logo1}
                                 alt="logo"
-                                style={{ marginRight: "10px" }}
+                                style={{
+                                    marginRight: "10px",
+                                    width: "3rem",
+                                    height: "3rem",
+                                }}
                             />
                             Gautham Saravanan
                         </p>
-                    </Link>
+                    </div>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
                     </div>

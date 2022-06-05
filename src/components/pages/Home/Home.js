@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Home.module.css";
 import { Link } from "react-router-dom";
-import Logo1Trans from "../../../images/gs_logo2_transparent-150x150.png";
+import ProfilePic from "../../../images/profilephoto.jpg";
 
 export default function Home() {
     return (
@@ -10,16 +10,15 @@ export default function Home() {
                 <h1 className={style["title"]}>
                     <span className={style["about"]}>
                         <img
-                            src={Logo1Trans}
+                            src={ProfilePic}
                             alt="GS logo"
-                            className="GSLogo"
+                            className={style["profile-photo"]}
                         />
                         <p className={style["info"]}>
-                            I'm a Junior at Cedar Park High School and I'm a
-                            motivated computer science student interested in
-                            programming, finance, business, and technology!
+                            I'm a motivated computer science student in high
+                            school who is interested in business, investing, and
+                            technology!
                         </p>
-                        
                     </span>
                     <a className={style["email"]} href="mailto:name@email.com">
                         gautham.v.saravanan@gmail.com

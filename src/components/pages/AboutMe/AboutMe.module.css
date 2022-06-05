@@ -3,10 +3,33 @@
     height: 100vh;
     justify-content: center;
     display: flex;
+    align-items: none;
+    height: calc(100vh - 80px);
+    overflow-y: hidden;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 h1 {
     padding: 4rem;
     font-size: 3rem;
     text-align: center;
+}
+
+.abt-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    grid-template-columns: auto;
+}
+
+.abt {
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1.75rem;
+    width: 50rem;
 }
