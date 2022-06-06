@@ -15,6 +15,26 @@ h1 {
     font-size: 3rem;
 }
 
+h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: flex;
+}
+
+h6 {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+ul {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+    margin-left: 2rem;
+}
+
 .exp-container {
     display: grid;
     align-items: center;

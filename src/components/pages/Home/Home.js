@@ -20,9 +20,6 @@ export default function Home() {
                             technology!
                         </p>
                     </span>
-                    <a className={style["email"]} href="mailto:name@email.com">
-                        gautham.v.saravanan@gmail.com
-                    </a>
                     <div className={style["social-icons"]}>
                         <a
                             className={style["social-icon"]}
@@ -48,6 +45,14 @@ export default function Home() {
                         >
                             <i class="fab fa-instagram"></i>
                         </a>
+                        <a
+                            className={style["social-icon"]}
+                            href="mailto:gautham.v.saravanan@gmail.com"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </h1>
 
@@ -57,7 +62,7 @@ export default function Home() {
                             to="/experience"
                             style={{ textDecoration: "none", color: "black" }}
                         >
-                            Check out my experience!
+                            View my experience!
                         </Link>
                     </button>
                     <button>
@@ -65,7 +70,7 @@ export default function Home() {
                             to="/projects"
                             style={{ textDecoration: "none", color: "black" }}
                         >
-                            View my projects!
+                            Check out my projects!
                         </Link>
                     </button>
                     <button>
