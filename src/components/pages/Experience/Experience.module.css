@@ -28,7 +28,7 @@ h6 {
     margin-top: 5px;
 }
 
-ul {
+ul.description {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 0.75rem;
@@ -39,7 +39,7 @@ ul {
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     grid-template-columns: auto;
 }
 
