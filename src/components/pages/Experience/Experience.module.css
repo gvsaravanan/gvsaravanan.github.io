@@ -10,28 +10,17 @@
     flex-wrap: wrap;
 }
 
-h1 {
-    padding: 4rem;
-    font-size: 3rem;
-}
-
-h5 {
-    font-size: 1.6rem;
-    font-weight: 600;
-    display: flex;
-}
-
 h6 {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     font-style: italic;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 ul.description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
-    margin-top: 0.75rem;
+    margin-top: 0.4rem;
     margin-left: 2rem;
 }
 
@@ -46,8 +35,9 @@ ul.description {
 .exp {
     background-color: white;
     border: 3px solid black;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     padding: 1rem;
+    padding-top: 0.5rem;
     border-radius: 15px;
     font-size: 1.75rem;
     width: 50rem;

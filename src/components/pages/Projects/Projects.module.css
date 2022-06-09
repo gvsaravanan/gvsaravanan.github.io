@@ -1,33 +1,44 @@
 .projects {
     background-color: var(--green);
-    height: 100vh;
     justify-content: center;
     display: flex;
     align-items: none;
-    height: calc(100vh - 80px);
-    overflow-y: hidden;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
 
-h1 {
-    padding: 4rem;
-    font-size: 3rem;
+h6.logos {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+ul.description {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
 }
 
 .proj-container {
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     grid-template-columns: auto;
 }
 
 .proj {
     background-color: white;
     border: 3px solid black;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     padding: 1rem;
+    padding-top: 0.5rem;
     border-radius: 15px;
     font-size: 1.75rem;
     width: 50rem;
