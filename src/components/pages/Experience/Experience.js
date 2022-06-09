@@ -58,7 +58,7 @@ export default function Experience() {
                                 </li>
                                 <li>
                                     Programmed with ReactJS, JavaScript, HTML,
-                                    CSS, and Git
+                                    and CSS
                                 </li>
                             </ul>
                         </div>
