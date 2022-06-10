@@ -5,11 +5,11 @@ export default function AboutMe() {
     return (
         <>
             <div className={style["aboutMe"]}>
-                <h1>
+                <h1 style={{textAlign: "center"}}>
                     ABOUT ME
                     <div className={style["abt-container"]}>
                         <div className={style["abt"]}>
-                            <h5 style={{fontSize: "1.5rem"}}>
+                            <h5 className={style["ab"]}>
                                 Hobbies
                             </h5>
                             <ul className={style["description"]}>
@@ -35,7 +35,7 @@ export default function AboutMe() {
                         </div>
 
                         <div className={style["abt"]}>
-                            <h5 style={{fontSize: "1.4rem"}}>
+                            <h5 className={style["ab"]}>
                                 Extracurriculars
                             </h5>
                             <ul className={style["description"]}>

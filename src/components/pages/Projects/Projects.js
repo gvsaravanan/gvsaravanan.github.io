@@ -5,7 +5,7 @@ export default function Projects() {
     return (
         <>
             <div className={style["projects"]}>
-                <h1>
+                <h1 style={{textAlign: "center"}}>
                     PROJECTS
                     <div className={style["proj-container"]}>
                         <div className={style["proj"]}>
@@ -16,6 +16,7 @@ export default function Projects() {
                                         display: "inline-block",
                                         width: "50%",
                                     }}
+                                    className={style["pr"]}
                                 >
                                     Snake Game
                                     <a
@@ -75,8 +76,9 @@ export default function Projects() {
                                     style={{
                                         textAlign: "left",
                                         display: "inline-block",
-                                        width: "50%",
+                                        width: "60%",
                                     }}
+                                    className={style["pr"]}
                                 >
                                     Personal Website
                                     <a
@@ -96,7 +98,7 @@ export default function Projects() {
                                     style={{
                                         textAlign: "right",
                                         display: "inline-block",
-                                        width: "50%",
+                                        width: "40%",
                                         fontStyle: "normal",
                                         fontSize: "1.5rem",
                                     }}
@@ -136,6 +138,7 @@ export default function Projects() {
                                         display: "inline-block",
                                         width: "50%",
                                     }}
+                                    className={style["pr"]}
                                 >
                                     ChemBox
                                     <a
@@ -195,6 +198,7 @@ export default function Projects() {
                                         display: "inline-block",
                                         width: "50%",
                                     }}
+                                    className={style["pr"]}
                                 >
                                     GPA Calculator
                                     <a

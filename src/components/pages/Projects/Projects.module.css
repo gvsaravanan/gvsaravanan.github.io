@@ -27,6 +27,7 @@ li:not(:last-child) {
 
 .proj-container {
     display: grid;
+    text-align: left;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
@@ -42,4 +43,24 @@ li:not(:last-child) {
     border-radius: 15px;
     font-size: 1.75rem;
     width: 50rem;
+}
+
+@media screen and (max-width: 860px) {
+
+    h5.pr {
+        font-size: 1.1rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    
+    ul.description {
+        font-size: 0.9rem;
+    }
+    
+    .proj {
+        width: 85vw;
+    }
 }

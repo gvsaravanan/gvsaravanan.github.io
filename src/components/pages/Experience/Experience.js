@@ -5,7 +5,7 @@ export default function Experience() {
     return (
         <>
             <div className={style["experience"]}>
-                <h1>
+                <h1 style={{textAlign: "center"}}>
                     EXPERIENCE
                     <div className={style["exp-container"]}>
                         <div className={style["exp"]}>
@@ -14,8 +14,9 @@ export default function Experience() {
                                     style={{
                                         textAlign: "left",
                                         display: "inline-block",
-                                        width: "50%",
+                                        width: "60%",
                                     }}
+                                    className={style["job"]}
                                 >
                                     Software Developer Intern
                                 </h5>
@@ -23,7 +24,7 @@ export default function Experience() {
                                     style={{
                                         textAlign: "right",
                                         display: "inline-block",
-                                        width: "50%",
+                                        width: "40%",
                                         fontStyle: "normal",
                                     }}
                                 >
