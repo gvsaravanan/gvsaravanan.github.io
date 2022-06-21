@@ -14,6 +14,66 @@ export default function Projects() {
                                     style={{
                                         textAlign: "left",
                                         display: "inline-block",
+                                        width: "60%",
+                                    }}
+                                    className={style["pr"]}
+                                >
+                                    Personal Website
+                                    <a
+                                        href="https://gvsaravanan.github.io"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        style={{
+                                            color: "black",
+                                            fontSize: "1rem",
+                                            paddingLeft: "8px",
+                                        }}
+                                    >
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </h5>
+                                <h6
+                                    style={{
+                                        textAlign: "right",
+                                        display: "inline-block",
+                                        width: "40%",
+                                        fontStyle: "normal",
+                                        fontSize: "1.5rem",
+                                    }}
+                                >
+                                    <i class="fab fa-react"></i>&nbsp;
+                                    <i class="fab fa-js-square"></i>&nbsp;
+                                    <i class="fab fa-html5"></i>&nbsp;
+                                    <i class="fab fa-css3-alt"></i>&nbsp;
+                                </h6>
+                            </div>
+                            <ul className={style["description"]}>
+                                <li>
+                                    Developed my own personal website with
+                                    GitHub Pages as the domain
+                                </li>
+                                <li>
+                                    Implemented with Google Analytics to track
+                                    user insights and interactions
+                                </li>
+                                <li>
+                                    Displays information about my experience,
+                                    projects, and hobbies allowing users to
+                                    learn more about me
+                                </li>
+                                <li>
+                                    Programmed in ReactJS, JavaScript, HTML, and
+                                    CSS
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div className={style["proj"]}>
+                            <div>
+                                <h5
+                                    style={{
+                                        textAlign: "left",
+                                        display: "inline-block",
                                         width: "50%",
                                     }}
                                     className={style["pr"]}
@@ -66,66 +126,6 @@ export default function Projects() {
                                 <li>
                                     Programmed in ReactNative, TypeScript,
                                     JavaScript, HTML, and CSS
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div className={style["proj"]}>
-                            <div>
-                                <h5
-                                    style={{
-                                        textAlign: "left",
-                                        display: "inline-block",
-                                        width: "60%",
-                                    }}
-                                    className={style["pr"]}
-                                >
-                                    Personal Website
-                                    <a
-                                        href="https://gvsaravanan.github.io"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        style={{
-                                            color: "black",
-                                            fontSize: "1rem",
-                                            paddingLeft: "8px",
-                                        }}
-                                    >
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </h5>
-                                <h6
-                                    style={{
-                                        textAlign: "right",
-                                        display: "inline-block",
-                                        width: "40%",
-                                        fontStyle: "normal",
-                                        fontSize: "1.5rem",
-                                    }}
-                                >
-                                    <i class="fab fa-react"></i>&nbsp;
-                                    <i class="fab fa-js-square"></i>&nbsp;
-                                    <i class="fab fa-html5"></i>&nbsp;
-                                    <i class="fab fa-css3-alt"></i>&nbsp;
-                                </h6>
-                            </div>
-                            <ul className={style["description"]}>
-                                <li>
-                                    Developed my own personal website with
-                                    GitHub Pages as the domain
-                                </li>
-                                <li>
-                                    Implemented with Google Analytics to track
-                                    user insights and interactions
-                                </li>
-                                <li>
-                                    Displays information about my experience,
-                                    projects, and hobbies allowing users to
-                                    learn more about me
-                                </li>
-                                <li>
-                                    Programmed in ReactJS, JavaScript, HTML, and
-                                    CSS
                                 </li>
                             </ul>
                         </div>
