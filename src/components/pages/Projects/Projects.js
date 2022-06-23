@@ -80,7 +80,7 @@ export default function Projects() {
                                 >
                                     Snake Game
                                     <a
-                                        href="https://github.com/gvsaravanan/GPA_Calculator"
+                                        href="https://github.com/gvsaravanan/Snake_Game"
                                         target="_blank"
                                         rel="noreferrer"
                                         style={{
