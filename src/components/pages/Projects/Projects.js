@@ -5,175 +5,147 @@ export default function Projects() {
     return (
         <>
             <div className={style["projects"]}>
-                <h1 style={{textAlign: "center"}}>
+                <h1 style={{ textAlign: "center" }}>
                     PROJECTS
                     <div className={style["proj-container"]}>
                         <div className={style["proj"]}>
-                            <div>
-                                <h5
-                                    style={{
-                                        textAlign: "left",
-                                        display: "inline-block",
-                                        width: "60%",
-                                    }}
-                                    className={style["pr"]}
-                                >
-                                    Personal Website
+                            <div style={{ marginTop: "-0.3rem" }}>
+                                <h5 className={style["project-name"]}>
+                                    Java Data Structures & Algorithms Projects
+                                </h5>
+                                <h6 className={style["link-container"]}>
                                     <a
-                                        href="https://gvsaravanan.github.io"
+                                        href="https://github.com/gvsaravanan/Java-Data-Structures-and-Algorithms"
                                         target="_blank"
                                         rel="noreferrer"
-                                        style={{
-                                            color: "black",
-                                            fontSize: "1rem",
-                                            paddingLeft: "8px",
-                                        }}
+                                        className={style["link"]}
                                     >
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>
-                                </h5>
-                                <h6
-                                    style={{
-                                        textAlign: "right",
-                                        display: "inline-block",
-                                        width: "40%",
-                                        fontStyle: "normal",
-                                        fontSize: "1.5rem",
-                                    }}
-                                >
-                                    <i class="fab fa-react"></i>&nbsp;
-                                    <i class="fab fa-js-square"></i>&nbsp;
-                                    <i class="fab fa-html5"></i>&nbsp;
-                                    <i class="fab fa-css3-alt"></i>&nbsp;
                                 </h6>
                             </div>
                             <ul className={style["description"]}>
                                 <li>
-                                    Developed my own personal website with
-                                    GitHub Pages as the domain
+                                    Developed 28+ individual projects
+                                    demonstrating proficiency in implementing
+                                    efficient/optimized solutions
                                 </li>
                                 <li>
-                                    Implemented with Google Analytics to track
-                                    user insights and interactions
+                                    Adapted Thomas Schelling’s agent-based
+                                    Segregation Model, simulating segregation
+                                    patterns in unique neighborhoods
                                 </li>
                                 <li>
-                                    Displays information about my experience,
-                                    projects, and hobbies allowing users to
-                                    learn more about me
+                                    Utilized Java Graphics to enhance, modify,
+                                    and draw images including different versions
+                                    of the Mandelbrot set (fractal geometric
+                                    images) as well as a realistic fire
+                                    animation
                                 </li>
-                                <li>
-                                    Programmed in ReactJS, JavaScript, HTML, and
-                                    CSS
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div className={style["proj"]}>
-                            <div>
-                                <h5
-                                    style={{
-                                        textAlign: "left",
-                                        display: "inline-block",
-                                        width: "50%",
-                                    }}
-                                    className={style["pr"]}
-                                >
-                                    Snake Game
-                                    <a
-                                        href="https://github.com/gvsaravanan/Snake_Game"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        style={{
-                                            color: "black",
-                                            fontSize: "1rem",
-                                            paddingLeft: "8px",
-                                        }}
-                                    >
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </h5>
-                                <h6
-                                    style={{
-                                        textAlign: "right",
-                                        display: "inline-block",
-                                        width: "50%",
-                                        fontStyle: "normal",
-                                        fontSize: "1.5rem",
-                                    }}
-                                >
-                                    <i class="fab fa-react"></i>&nbsp;
-                                    <i class="fab fa-js-square"></i>&nbsp;
-                                    <i class="fab fa-html5"></i>&nbsp;
-                                    <i class="fab fa-css3-alt"></i>&nbsp;
-                                </h6>
-                            </div>
-                            <ul className={style["description"]}>
-                                <li>
-                                    Fully-functioning app that lets you play the
-                                    iconic snake game from any of your devices
-                                    (Andriod or iOS softwares)
-                                </li>
-                                <li>
-                                    Displays control buttons on-screen to easily
-                                    control the snake's movement and stores user
-                                    data of current game score and highest game
-                                    score
-                                </li>
-                                <li>
-                                    Implemented using Expo CLI and can be run on
-                                    the Expo Go app by creating a server
-                                </li>
-                                <li>
-                                    Programmed in ReactNative, TypeScript,
-                                    JavaScript, HTML, and CSS
+                                <li style={{ textDecoration: "underline" }}>
+                                    Stack: Java, Graphics, ImageIO, Color
                                 </li>
                             </ul>
                         </div>
 
                         <div className={style["proj"]}>
-                            <div>
-                                <h5
-                                    style={{
-                                        textAlign: "left",
-                                        display: "inline-block",
-                                        width: "50%",
-                                    }}
-                                    className={style["pr"]}
-                                >
+                            <div style={{ marginTop: "-0.3rem" }}>
+                                <h5 className={style["project-name"]}>
+                                    Personal Website
+                                </h5>
+                                <h6 className={style["link-container"]}>
+                                    <a
+                                        href="https://github.com/gvsaravanan/gvsaravanan.github.io"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className={style["link"]}
+                                    >
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </h6>
+                            </div>
+                            <ul className={style["description"]}>
+                                <li>
+                                    Showcased my skills, projects, and
+                                    achievements with custom front-end
+                                    components & interactive elements
+                                </li>
+                                <li>
+                                    Implemented Google Analytics to track
+                                    website traffic, user behavior, user
+                                    engagement, and the navigation flow
+                                </li>
+                                <li>
+                                    Developed portfolio website using GitHub
+                                    Pages as the source domain
+                                </li>
+                                <li style={{ textDecoration: "underline" }}>
+                                    Stack: JavaScript, React, HTML, CSS, Git,
+                                    GitHub Pages, Google Analytics
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className={style["proj"]}>
+                            <div style={{ marginTop: "-0.3rem" }}>
+                                <h5 className={style["project-name"]}>
+                                    Snake Game
+                                </h5>
+                                <h6 className={style["link-container"]}>
+                                    <a
+                                        href="https://github.com/gvsaravanan/Snake_Game"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className={style["link"]}
+                                    >
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </h6>
+                            </div>
+                            <ul className={style["description"]}>
+                                <li>
+                                    Developed a mobile app to play the iconic
+                                    snake game
+                                </li>
+                                <li>
+                                    Implemented game mechanics, including snake
+                                    movement, food generation, score tracking, &
+                                    collision detection
+                                </li>
+                                <li>
+                                    Utilized Expo CLI to build the app, allowing
+                                    users to easily access and test the game
+                                    with a server on the Expo Go app
+                                </li>
+                                <li style={{ textDecoration: "underline" }}>
+                                    Stack: JavaScript, React Native, TypeScript,
+                                    HTML, Git, Expo CLI
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className={style["proj"]}>
+                            <div style={{ marginTop: "-0.3rem" }}>
+                                <h5 className={style["project-name"]}>
                                     ChemBox
+                                </h5>
+                                <h6 className={style["link-container"]}>
                                     <a
                                         href="https://devpost.com/software/chembox-2qp0n8"
                                         target="_blank"
                                         rel="noreferrer"
-                                        style={{
-                                            color: "black",
-                                            fontSize: "1rem",
-                                            paddingLeft: "8px",
-                                        }}
+                                        className={style["link"]}
                                     >
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>
-                                </h5>
-                                <h6
-                                    style={{
-                                        textAlign: "right",
-                                        display: "inline-block",
-                                        width: "50%",
-                                        fontStyle: "normal",
-                                        fontSize: "1.2rem",
-                                        fontWeight: "600",
-                                        marginTop: "0px",
-                                    }}
-                                >
-                                    1st Place&nbsp;
                                 </h6>
                             </div>
                             <ul className={style["description"]}>
                                 <li>
                                     Competed in the JumpStart EdTech Hackathon
-                                    with 3 other people and won the 1st place
-                                    $350 prize among 180+ competitors in the
-                                    Best High School category
+                                    with 3 teammates and won the 1st place $350
+                                    prize among 180+ competitors in the Best
+                                    High School category
                                 </li>
                                 <li>
                                     Chembox is a prototype of a mobile app that
@@ -191,55 +163,35 @@ export default function Projects() {
                         </div>
 
                         <div className={style["proj"]}>
-                            <div>
-                                <h5
-                                    style={{
-                                        textAlign: "left",
-                                        display: "inline-block",
-                                        width: "50%",
-                                    }}
-                                    className={style["pr"]}
-                                >
+                            <div style={{ marginTop: "-0.3rem" }}>
+                                <h5 className={style["project-name"]}>
                                     GPA Calculator
+                                </h5>
+                                <h6 className={style["link-container"]}>
                                     <a
                                         href="https://github.com/gvsaravanan/GPA_Calculator"
                                         target="_blank"
                                         rel="noreferrer"
-                                        style={{
-                                            color: "black",
-                                            fontSize: "1rem",
-                                            paddingLeft: "8px",
-                                        }}
+                                        className={style["link"]}
                                     >
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>
-                                </h5>
-                                <h6
-                                    style={{
-                                        textAlign: "right",
-                                        display: "inline-block",
-                                        width: "50%",
-                                        fontStyle: "normal",
-                                        fontSize: "1.5rem",
-                                    }}
-                                >
-                                    <i class="fab fa-js-square"></i>&nbsp;
-                                    <i class="fab fa-html5"></i>&nbsp;
-                                    <i class="fab fa-css3-alt"></i>&nbsp;
                                 </h6>
                             </div>
                             <ul className={style["description"]}>
                                 <li>
-                                    Developed a fully-functioning Chrome Web
-                                    Extension that calculates students’ weighted
-                                    GPA
+                                    Implemented a user-friendly GPA Calculator
+                                    interface allowing students to input
+                                    semester/cycle grades for each class
                                 </li>
                                 <li>
-                                    Allows students to input their semester or
-                                    cycle grades for each class and calculates
-                                    their GPA
+                                    Integrated the GPA Calculator into a Chrome
+                                    Web Extension, providing convenience &
+                                    accessibility for students
                                 </li>
-                                <li>Programmed in JavaScript, HTML, and CSS</li>
+                                <li style={{ textDecoration: "underline" }}>
+                                    Stack: JavaScript, HTML, CSS, Git
+                                </li>
                             </ul>
                         </div>
                     </div>

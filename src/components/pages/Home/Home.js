@@ -14,74 +14,86 @@ export default function Home() {
                             alt="GS logo"
                             className={style["profile-photo"]}
                         />
-                        <p className={style["info"]}>
-                            I'm a motivated computer science student in high
-                            school who is interested in business, investing, and
-                            technology!
-                        </p>
+                        <h2 className={style["name"]}>
+                            Gautham Saravanan
+                            <hr></hr>
+                            <p className={style["info"]}>
+                                Hi there! My name is Gautham and I am a student
+                                at The University of Texas at Austin pursuing a
+                                degree in Computer Science!
+                            </p>
+                        </h2>
                     </span>
                     <div className={style["social-icons"]}>
-                        <a
-                            className={style["social-icon"]}
-                            href="https://www.linkedin.com/in/gautham-saravanan/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a
-                            className={style["social-icon"]}
-                            href="https://github.com/gvsaravanan"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a
-                            className={style["social-icon"]}
-                            href="https://instagram.com/gautham.saravanan/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a
-                            className={style["social-icon"]}
-                            href="mailto:gautham.v.saravanan@gmail.com"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        <button className={style["btn"]}>
+                            <a
+                                className={style["social-icon"]}
+                                href="https://www.linkedin.com/in/gautham-saravanan/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </button>
+                        <button className={style["btn"]}>
+                            <a
+                                className={style["social-icon"]}
+                                href="https://github.com/gvsaravanan"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </button>
+                        <button className={style["btn"]}>
+                            <a
+                                className={style["social-icon"]}
+                                href="https://instagram.com/gautham.saravanan/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </button>
+                        <button className={style["btn"]}>
+                            <a
+                                className={style["social-icon"]}
+                                href="mailto:gautham.v.saravanan@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </button>
+                    </div>
+
+                    <div>
+                        <div className={style["links"]}>
+                            <button className={style["link"]}>
+                                <Link
+                                    to="/experience"
+                                    style={{
+                                        textDecoration: "none",
+                                        color: "white",
+                                    }}
+                                >
+                                    View my experience!
+                                </Link>
+                            </button>
+                            <button className={style["link"]}>
+                                <Link
+                                    to="/projects"
+                                    style={{
+                                        textDecoration: "none",
+                                        color: "white",
+                                    }}
+                                >
+                                    Check out my projects!
+                                </Link>
+                            </button>
+                        </div>
                     </div>
                 </h1>
-
-                <div className={style["btn-group"]}>
-                    <button>
-                        <Link
-                            to="/experience"
-                            style={{ textDecoration: "none", color: "black" }}
-                        >
-                            View my experience!
-                        </Link>
-                    </button>
-                    <button>
-                        <Link
-                            to="/projects"
-                            style={{ textDecoration: "none", color: "black" }}
-                        >
-                            Check out my projects!
-                        </Link>
-                    </button>
-                    <button>
-                        <Link
-                            to="/about-me"
-                            style={{ textDecoration: "none", color: "black" }}
-                        >
-                            Learn more about me!
-                        </Link>
-                    </button>
-                </div>
             </div>
         </>
     );

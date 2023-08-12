@@ -2,7 +2,7 @@
     background-color: black;
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-size: 1.3rem;
     position: sticky;
@@ -12,12 +12,10 @@
 
 .navbar-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    height: 80px;
     max-width: 2000px;
     flex: 1;
-    margin: 0px 50px;
 }
 
 .navbar-name {
@@ -31,17 +29,6 @@
     flex: 1;
 }
 
-.name {
-    color: white;
-    margin-left: 20px;
-    cursor: auto;
-    text-decoration: none;
-    font-size: 1.75rem;
-    display: flex;
-    align-items: center;
-    transition: 0.3s;
-}
-
 .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
@@ -50,7 +37,7 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
+    grid-gap: 5px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -60,7 +47,7 @@
 }
 
 .nav-link {
-    font-weight: bold;
+    font-weight: none;
     color: #fff;
     display: flex;
     display: inline-block;
@@ -72,7 +59,7 @@
 }
 
 #home:hover {
-    color: rgb(209, 209, 209);
+    color: var(--orange);
 }
 
 #experience:hover {
@@ -80,11 +67,7 @@
 }
 
 #projects:hover {
-    color: var(--green);
-}
-
-#aboutMe:hover {
-    color: var(--blue);
+    color: var(--orange);
 }
 
 .nav-link::after {
@@ -156,9 +139,6 @@
     #home:hover,
     #experience:hover,
     #projects:hover,
-    #aboutMe:hover {
-        color: black;
-    }
 
     .nav-link::after {
         background: none;

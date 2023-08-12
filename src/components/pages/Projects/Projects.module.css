@@ -1,28 +1,51 @@
 .projects {
-    background-color: var(--green);
-    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../../../images/austin_city4.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
-    align-items: none;
+    justify-content: center;
+    transition: 0.5s;
+    overflow-y: hidden;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
 
-h6.logos {
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: 600;
-    margin-top: 3px;
+.project-name {
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+    font-size: 1.2rem;
 }
 
-ul.description {
+.link-container {
+    width: 20%;
+    text-align: right;
+    display: inline-block;
+    margin-top: -50px;
+}
+
+.link {
+    color: white;
     font-size: 1rem;
-    font-weight: 500;
-    margin-top: 0.4rem;
+}
+
+.fas {
+    margin-left: 8px;
+    margin-bottom: 1000px;
+}
+
+.description {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 0.1rem;
     margin-left: 2rem;
 }
 
-li:not(:last-child) {
-    margin-bottom: 5px;
+li {
+    padding-bottom: 2px;
 }
 
 .proj-container {
@@ -30,37 +53,42 @@ li:not(:last-child) {
     text-align: left;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     grid-template-columns: auto;
 }
 
 .proj {
-    background-color: white;
-    border: 3px solid black;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    border-radius: 15px;
-    font-size: 1.75rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 5px solid black;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    padding-top: 0rem;
+    border-radius: 10px;
     width: 50rem;
 }
 
 @media screen and (max-width: 860px) {
 
-    h5.pr {
-        font-size: 1.1rem;
+    h1 {
+        font-size: 1.7rem;
     }
 
-    h6 {
+    .project-name {
         font-size: 1rem;
-        margin-top: 5px;
+    }
+
+    .link {
+        font-size: 1rem;
     }
     
-    ul.description {
-        font-size: 0.9rem;
+    .description {
+        font-size: 0.8rem;
     }
     
     .proj {
         width: 85vw;
+        padding-top: 0.25rem;
+        border-width: 4px;
     }
 }

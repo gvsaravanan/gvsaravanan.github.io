@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo1 from "../images/gs_logo1_transparent-60x60.png";
 import "./Navbar.css";
 
 function Navbar() {
@@ -13,20 +12,6 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <div className="navbar-name">
-                        <p className="name">
-                            <img
-                                src={Logo1}
-                                alt="logo"
-                                style={{
-                                    marginRight: "10px",
-                                    width: "3rem",
-                                    height: "3rem",
-                                }}
-                            />
-                            Gautham Saravanan
-                        </p>
-                    </div>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
                     </div>
@@ -59,16 +44,6 @@ function Navbar() {
                                 onClick={closeMobileMenu}
                             >
                                 &nbsp;PROJECTS&nbsp;
-                            </Link>
-                        </li>
-                        <li className="nav-item  navbar-link">
-                            <Link
-                                to="/about-me"
-                                className="nav-link"
-                                id="aboutMe"
-                                onClick={closeMobileMenu}
-                            >
-                                &nbsp;ABOUT ME&nbsp;
                             </Link>
                         </li>
                     </ul>

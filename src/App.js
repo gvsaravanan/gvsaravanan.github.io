@@ -6,7 +6,6 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home/Home';
 import Projects from './components/pages/Projects/Projects';
 import Experience from './components/pages/Experience/Experience';
-import AboutMe from './components/pages/AboutMe/AboutMe';
 import ReactGA from "react-ga";
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
           <Route path="/" exact component={Home}/>
           <Route path='/experience' exact component={Experience} />
           <Route path='/projects' exact component={Projects} />
-          <Route path='/about-me' exact component={AboutMe} /> 
         </Switch>
       </Router>
     </>
