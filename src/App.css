@@ -5,10 +5,6 @@
     font-family: "Barlow", sans-serif;
 }
 
-#root {
-    overflow-x: show;
-}
-
 ::-webkit-scrollbar {
     background-color: black;
 }

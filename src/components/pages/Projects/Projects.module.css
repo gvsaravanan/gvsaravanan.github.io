@@ -1,6 +1,6 @@
 .projects {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../../../images/austin_city4.jpg) no-repeat center center;
+        url(../../../images/austin_city.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,6 +11,12 @@
     overflow-y: hidden;
     box-sizing: border-box;
     flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 1.5rem;
 }
 
 .project-name {
@@ -24,7 +30,6 @@
     width: 20%;
     text-align: right;
     display: inline-block;
-    margin-top: -50px;
 }
 
 .link {
@@ -34,7 +39,6 @@
 
 .fas {
     margin-left: 8px;
-    margin-bottom: 1000px;
 }
 
 .description {
@@ -72,6 +76,11 @@ li {
 
     h1 {
         font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+
+    .proj-container {
+        margin-top: 1rem;
     }
 
     .project-name {
