@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2445e9a.chunk.css",
-    "main.js": "/static/js/main.0508816f.chunk.js",
-    "main.js.map": "/static/js/main.0508816f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d923c3a5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d923c3a5.js.map",
-    "static/js/2.19d44e36.chunk.js": "/static/js/2.19d44e36.chunk.js",
-    "static/js/2.19d44e36.chunk.js.map": "/static/js/2.19d44e36.chunk.js.map",
+    "main.css": "/static/css/main.962fa053.css",
+    "main.js": "/static/js/main.78a298d8.js",
+    "static/media/austin_city4.jpg": "/static/media/austin_city4.147576f1b9d1fa82d36a.jpg",
+    "static/media/austin_city.jpg": "/static/media/austin_city.8da9b5a062e15cac6b6a.jpg",
+    "static/media/ut_campus.jpg": "/static/media/ut_campus.449a49593c71124ed8db.jpg",
+    "static/media/profilephoto3.jpg": "/static/media/profilephoto3.ef97b90177bb2b9fc302.jpg",
     "index.html": "/index.html",
-    "static/css/main.d2445e9a.chunk.css.map": "/static/css/main.d2445e9a.chunk.css.map",
-    "static/js/2.19d44e36.chunk.js.LICENSE.txt": "/static/js/2.19d44e36.chunk.js.LICENSE.txt",
-    "static/media/Projects.module.css": "/static/media/austin_city.8da9b5a0.jpg",
-    "static/media/Experience.module.css": "/static/media/austin_city4.147576f1.jpg",
-    "static/media/profilephoto.c47cd7e7.jpg": "/static/media/profilephoto.c47cd7e7.jpg",
-    "static/media/Home.module.css": "/static/media/ut_campus.449a4959.jpg"
+    "main.962fa053.css.map": "/static/css/main.962fa053.css.map",
+    "main.78a298d8.js.map": "/static/js/main.78a298d8.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d923c3a5.js",
-    "static/js/2.19d44e36.chunk.js",
-    "static/css/main.d2445e9a.chunk.css",
-    "static/js/main.0508816f.chunk.js"
+    "static/css/main.962fa053.css",
+    "static/js/main.78a298d8.js"
   ]
 }
