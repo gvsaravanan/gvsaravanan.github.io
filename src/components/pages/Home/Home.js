@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Home.module.css";
 import { Link } from "react-router-dom";
-import ProfilePic from "../../../images/profilephoto.jpg";
+import ProfilePic from "../../../images/profilephoto3.jpg";
 
 export default function Home() {
     return (
@@ -18,9 +18,9 @@ export default function Home() {
                             Gautham Saravanan
                             <hr></hr>
                             <p className={style["info"]}>
-                                Hi there! My name is Gautham and I am a student
+                                Hey there! My name is Gautham and I am a student
                                 at The University of Texas at Austin pursuing a
-                                degree in Computer Science!
+                                degree in Computer Science & Mathematics!
                             </p>
                         </h2>
                     </span>
